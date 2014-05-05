@@ -22,7 +22,7 @@ var Page = (function() {
 		} ),
 		$navNext = $( '#bb-nav-next' ),
 		$navPrev = $( '#bb-nav-prev' ).hide(),
-		$menuItems = $container.find( 'ul.menu-toc > li' ),
+		$menuItems = $container.find( 'ul.menu-baby > li' ),
 		$tblcontents = $( '#tblcontents' ),
 		transEndEventNames = {
 			'WebkitTransition': 'webkitTransitionEnd',
@@ -115,7 +115,7 @@ var Page = (function() {
 	}
 
 	function updateTOC() {
-		$menuItems.removeClass( 'menu-toc-current' ).eq( current ).addClass( 'menu-toc-current' );
+		$menuItems.removeClass( 'menu-baby-current' ).eq( current ).addClass( 'menu-baby-current' );
 	}
 
 	function updateNavigation( isLastPage ) {
