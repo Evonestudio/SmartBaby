@@ -1,0 +1,14 @@
+{
+  "name": "Smart Baby",
+  "version": "1.0.1",
+  "description": "Baby is smart",
+  "launch_path": "/index.html",
+
+  "developer": {
+    "name": "Rizky Ariestiyansyah",
+     "url": "http://oonlab.com"
+  },
+  "orientation": ["portrait"],
+  "default_locale": "en",
+  "installs_allowed_from":["*"]
+}
